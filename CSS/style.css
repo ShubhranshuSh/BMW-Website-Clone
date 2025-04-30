@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Karla:wght@300;400;500;600;700;800&display=swap');
+/* resets */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+
+}
+
+/* utility classes */
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    max-width: 1294px;
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+
+/* header section */
+.header-section{
+    background-image:url(/Assets/header\ image-copy.jpg);
+    background-position: center;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* navigation section */
+.main-nav{
+    justify-content: space-between;
+}
+
+.header-section img{
+    width: 53px;
+    height: 53px;
+}
+
+.nav-link{
+    margin-left: 30px;
+}
+.nav-link ul{
+    gap: 20px;
+    
+}
+.left-nav{
+    margin-top: 20px;
+    align-items: center;
+}
+.left-nav a{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Cairo', sans-serif;
+    color: white;
+}
+
+.right-nav{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.right-nav ul{
+    gap: 30px;
+}
+.right-nav ul a{
+    font-size: 15px;
+    color: white;
+}
+.horizontal-line{
+    margin-top: 7px;
+}
+
+/* header-section with main heading and discover button */
+
+.header-section .container p{
+    margin-top: 15px;
+    font-family: 'Cairo', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.header-section .container .heading-section{
+    margin-top: 12% ;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.header-section .container .heading-section p{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+.header-section .container .heading-section h1{
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+    font-size: 74px;
+    color: white;
+}
+.header-section .container .heading-section h2{
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+    font-size: 31px;
+    color: white;
+}
+.discover-button{
+    justify-content: center;
+    border-radius: 3px;
+    padding: 15px 40px 15px 40px;
+    background-color: #1c69d4;
+}
+.discover-button:hover{
+    justify-content: center;
+    border-radius: 3px;
+    padding: 15px 40px 15px 40px;
+    background-color: #1452aa;
+}
+.discover-button p{
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+}
+
+/* blank division */
+.blank-section{
+    width: 100%;
+    height: 20px;
+}
+
+.blank-division{
+    margin-top: 30px;
+}
+
+/* video trailer */
+
+#video-trailer-section{
+    line-height: normal;
+    position: relative;
+    width: 100%;
+    height: 110vh;
+    overflow: hidden;
+}
+
+#video-trailer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: -1;
+}
+#video-trailer-section .video-content{
+    padding-top: 520px;
+}
+
+.video-content{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.video-content p{
+    font-family: 'Karla', sans-serif;
+    color: white;
+    font-weight: 800;
+}
+.video-content h1{
+    font-family: 'Karla', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 80px;
+}
+.video-content h2{
+    font-family: 'Karla', sans-serif;
+    line-height: 0.8;
+    color: white;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.video-content .trailer-button{
+    margin-top: 40px;
+    gap: 50px;
+}
+
+.video-content .trailer-button .trailer-button1{
+    font-family:'Cairo', sans-serif ;
+    font-size: 18px;
+    justify-content: center;
+    border-radius: 3px;
+    padding: 12px 25px;
+    background-color: #1c69d4;
+}
+.video-content .trailer-button .trailer-button1:hover{
+    font-family:'Cairo', sans-serif ;
+    font-size: 18px;
+    justify-content: center;
+    border-radius: 3px;
+    padding: 12px 25px;
+    background-color: #1452aa;
+}
+.video-content .trailer-button .trailer-button2{
+    font-family:'Cairo', sans-serif ;
+    font-size: 18px;
+    justify-content: center;
+    border-radius: 3px;
+    border: 2px solid white;
+    padding: 11px 45px;
+}
+.video-content .trailer-button .trailer-button2:hover{
+    font-family:'Cairo', sans-serif ;
+    font-size: 18px;
+    justify-content: center;
+    border-radius: 3px;
+    border: 3px solid white;
+    padding: 11px 45px;
+}
+
+/* shopping tools */
+
+.shopping-tool-section{
+    width: 100%;
+    height: 469px;
+}
+
+.shopping-heading{
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.shopping-tool-section p{
+    font-family:'Karla', sans-serif;
+    color: #666666;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.shopping-tool-section h1{
+    margin-top: 12px;
+    font-family:'Karla', sans-serif;
+    color: #262626;
+    font-size: 60px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.tool-menu{
+    flex-direction: column;
+    width: 650px;
+    height: auto;
+}
+.tool-menu img{
+    width: 100%;
+    height: auto;
+}
+
+.menu{
+    margin-top: 15px;
+}
+
+.tool-menu .menu{
+    font-family: 'Cairo', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: black;
+    letter-spacing: 0px;
+}
+.tool-menu .menu-button{
+    margin-top: 30px;
+    letter-spacing: normal;
+    font-family:'Cairo', sans-serif ;
+    font-weight: 800;
+    color: black ;
+    border: 2px solid black;
+    border-radius: 2px;
+    padding: 10px 20px ;
+}
+.tool-menu .menu-button:hover{
+    margin-top: 30px;
+    letter-spacing: normal;
+    font-family:'Cairo', sans-serif ;
+    font-weight: 800;
+    color: black ;
+    border: 3px solid black;
+    border-radius: 2px;
+    padding: 10px 20px ;
+}
+
+
+/* the seven section  */
+
+.the-seven-section{
+    background-image: url(/Assets/the\ seven\ bg.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+}
+.the-seven-section .container{
+    padding-top:150px ;
+}
+.the-seven-section .container .the-seven-content{
+    flex-direction: column;
+    align-items: flex-start !important;
+    width: 700px;
+    height: 100px;
+}
+.the-seven-content h1{
+    font-family: 'Karla', sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 60px;
+}
+.the-seven-section .container .the-seven-content .the-seven-button{
+    border: 2px solid white;
+    border-radius: 2px;
+    margin-top: 25px;
+    margin-left: 15px;
+    padding:10px 90px ;
+    color: white;
+    font-family:'Cairo', sans-serif ;
+    font-weight: 700;
+    font-size: 17px;
+}
+.the-seven-section .container .the-seven-content .the-seven-button:hover{
+    border: 3px solid white;
+    border-radius: 2px;
+    margin-top: 25px;
+    margin-left: 15px;
+    padding:10px 90px ;
+    color: white;
+    font-family:'Cairo', sans-serif ;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+
+/* More about BMWs */
+
+.more-bmw{
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.more-bmw .more-bmw-img{
+    width: 600px;
+    height: auto;
+}
+
+.electric{
+    gap: 20px;
+}
+.electric-content{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.more-bmw-heading{
+    font-family:'Karla', sans-serif;
+    color: #666666;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 700;;
+}
+
+.more-bmw-main-heading{
+    margin-top: 12px;
+    font-family:'Karla', sans-serif;
+    color: #262626;
+    font-size: 60px;
+    letter-spacing: normal;
+    font-weight: 300;
+}
+.more-bmw-about{
+    margin-top: 12px;
+    font-family:'Karla', sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: normal;
+    font-weight: 300;
+}
+
+.more-bmw-button{
+    color: black;
+    font-weight: 700;
+    margin-top: 40px;
+    font-family:'Cairo', sans-serif ;
+    font-size: 18px;
+    justify-content: center;
+    border-radius: 3px;
+    border: 2px solid black;
+    padding: 9px 58px;
+}
+.more-bmw-button:hover{
+    color: black;
+    font-weight: 700;
+    margin-top: 40px;
+    font-family:'Cairo', sans-serif ;
+    font-size: 18px;
+    justify-content: center;
+    border-radius: 3px;
+    border: 3px solid black;
+    padding: 9px 58px;
+}
+
+.financial-service{
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.financial-content{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+hr{
+    margin-top: 20px;
+}
+
+/* more models */
+
+.more-model-section{
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+.more-model-section .container{
+    margin-top: 25px;
+    gap: 25px;
+}
+
+.more-model-section .container p{
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+}
+.more-model-section .container a{
+    font-family: 'Cairo', sans-serif ;
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+}
+.more-model-section .container a:hover{
+    font-family: 'Cairo', sans-serif ;
+    color: #1c69d4;
+    font-weight: 700;
+    font-size: 16px;
+}
