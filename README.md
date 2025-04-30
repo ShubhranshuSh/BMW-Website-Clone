@@ -1,4 +1,4 @@
-# 🚗 BMW Website Clone
+# BMW Website Clone
 
 ## Description
 
