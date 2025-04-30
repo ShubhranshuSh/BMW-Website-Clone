@@ -8,11 +8,11 @@ This is a **static clone of the official BMW website**, built using only **HTML 
 
 ## Features
 
-- 🔹 Fully static frontend project
-- 🔹 Clean and responsive layout
-- 🔹 Structured sections for banners, navigation, car showcases, and footers
-- 🔹 Pixel-perfect styling using pure CSS
-- 🔹 Compatible with all major browsers
+- Fully static frontend project
+- Clean and responsive layout
+- Structured sections for banners, navigation, car showcases, and footers
+- Pixel-perfect styling using pure CSS
+- Compatible with all major browsers
 
 ---
 
@@ -24,7 +24,7 @@ This is a **static clone of the official BMW website**, built using only **HTML 
 
 ---
 
-## ▶️ How to Run This Project
+## How to Run This Project
 
 1. **Clone the Repository**
 ```bash
